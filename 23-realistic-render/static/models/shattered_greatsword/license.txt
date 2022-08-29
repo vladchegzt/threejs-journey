@@ -1,0 +1,11 @@
+Model Information:
+* title:	Shattered Greatsword
+* source:	https://sketchfab.com/3d-models/shattered-greatsword-589944d755e64b5bb048eaae0130b32d
+* author:	geniusrahman155 (https://sketchfab.com/geniusrahman155)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Shattered Greatsword" (https://sketchfab.com/3d-models/shattered-greatsword-589944d755e64b5bb048eaae0130b32d) by geniusrahman155 (https://sketchfab.com/geniusrahman155) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

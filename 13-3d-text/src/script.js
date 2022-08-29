@@ -32,15 +32,15 @@ const scene = new THREE.Scene()
     (font) =>
     {
         const textGeometry = new THREE.TextGeometry(
-            'Super puper text',
+            'Ty pidor',
             {
                 font: font,
-                size: 0.5,
+                size: 1,
                 height: 0.2,
                 curveSegments: 12,
                 bevelEnabled: true,
                 bevelThickness: 0.03,
-                bevelSize: 0.02,
+                bevelSize: .22,
                 bevelOffset: 0,
                 bevelSegments: 5
             }

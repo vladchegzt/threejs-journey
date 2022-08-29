@@ -41,12 +41,12 @@ const updateAllMaterials = () => {
  * Environment map
  */
 const environmentMap = cubeTextureLoader.load([
-    '/textures/environmentMaps/0/px.jpg',
-    '/textures/environmentMaps/0/nx.jpg',
-    '/textures/environmentMaps/0/py.jpg',
-    '/textures/environmentMaps/0/ny.jpg',
-    '/textures/environmentMaps/0/pz.jpg',
-    '/textures/environmentMaps/0/nz.jpg',
+    '/textures/environmentMaps/4/px.png',
+    '/textures/environmentMaps/4/nx.png',
+    '/textures/environmentMaps/4/py.png',
+    '/textures/environmentMaps/4/ny.png',
+    '/textures/environmentMaps/4/pz.png',
+    '/textures/environmentMaps/4/nz.png',
 ])
 environmentMap.encoding = THREE.sRGBEncoding
 scene.background = environmentMap
@@ -70,13 +70,14 @@ gui.add(debugObject, 'envMapIntensity').min(0).max(10).step(0.001).onChange(upda
         gui.add(gltf.scene.rotation, 'y').min(- Math.PI).max(Math.PI).step(0.001).name('rotation')
 
         updateAllMaterials()
+        document.querySelector('.loader').classList.add('hide')
     }
 )
 
 /**
  * Lights
  */
-const directionalLight = new THREE.DirectionalLight('#ffffff', 3)
+const directionalLight = new THREE.DirectionalLight('#ffffff', 1)
 directionalLight.position.set(0.25, 3, -2.25)
 scene.add(directionalLight)
 
