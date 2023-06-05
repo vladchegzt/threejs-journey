@@ -1,0 +1,31 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+
+html {
+    background: url("./img/bg-desk-purple.jpg");
+}
+
+.webgl
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+.container  {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    min-height: 100vh;
+}
